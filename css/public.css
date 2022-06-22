@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+.header-top {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #999
+}
+
+.header-top div,
+.header-top p {
+    float: right;
+    margin-top: 16px;
+    color: #999
+}
+
+.header-top div a {
+    color: #999
+}
+
+.header-top div a:first-child {
+    display: block;
+    float: left
+}
+
+.header-top div a:hover {
+    color: #000;
+    border-bottom: 1px solid #000
+}
+
+.header-top div {
+    height: 20px;
+    margin-right: 20px;
+    font-size: 14px
+}
+
+.header-top .p1,
+.header-top .p2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+    cursor: pointer
+}
+
+.header-top .p1 {
+    background: url(https://img.fishfay.com/theme/images/icons/cart-g.svg) no-repeat
+}
+
+.header-top .p1:hover {
+    background-image: url(https://img.fishfay.com/theme/images/icons/cart-b.svg)
+}
+
+.header-top .p2 {
+    background: url(https://img.fishfay.com/theme/images/icons/service-g.svg) no-repeat
+}
+
+.header-top .p2:hover {
+    background-image: url(https://img.fishfay.com/theme/images/icons/service-b.svg)
+}
+
+.header-top .p3 {
+    margin-right: 80px;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.header-top .p3:hover {
+    border-bottom: 1px solid #000;
+    color: #000
+}
+
+.header-bottom {
+    height: 100px;
+    display: flex;
+    align-items: center
+}
+
+.header-bottom-L {
+    margin-left: 345px
+}
+
+.header-bottom-L img {
+    width: 53px;
+    height: 30px
+}
+
+.header-bottom-C {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.header-bottom-C .ul-v {
+    display: flex;
+    width: 779px
+}
+
+.header-bottom-C .li-1,
+.header-bottom-C .li-2,
+.header-bottom-C .li-3,
+.header-bottom-C .li-4,
+.header-bottom-C .li-5,
+.header-bottom-C .li-6,
+.header-bottom-C .li-7,
+.header-bottom-C .li-8 {
+    height: 98px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 98px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.header-bottom-C .li-1:hover,
+.header-bottom-C .li-2:hover,
+.header-bottom-C .li-3:hover,
+.header-bottom-C .li-4:hover,
+.header-bottom-C .li-5:hover,
+.header-bottom-C .li-6:hover,
+.header-bottom-C .li-7:hover,
+.header-bottom-C .li-8:hover {
+    border-bottom: 4px solid red
+}
+
+.header-bottom-R {
+    width: 212px;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-right: 135px
+}
+
+.header-bottom-R a {
+    background: url(https://img.fishfay.com/theme/images/icons/search-b.svg) center no-repeat;
+    display: block;
+    float: left;
+    background-size: 18px 18px;
+    width: 46px;
+    height: 26px;
+    margin-top: 8px;
+    border-right: 1px solid #999
+}
+
+.header-bottom-R input {
+    display: block;
+    float: right;
+    width: 110px;
+    height: 26px;
+    margin-top: 6px;
+    border: 0;
+    outline: 0
+}
+
+.ul-1,
+.ul-A,
+.ul-B,
+.ul-a {
+    border-right: 1px solid #999
+}
+
+.li-2 {
+    position: relative
+}
+
+.er-1 {
+    position: absolute;
+    top: 98px;
+    left: -945px;
+    width: 1903px;
+    height: 385px;
+    background-color: #fff;
+    font-size: 12px;
+    display: flex;
+    display: none;
+    z-index: 99
+}
+
+.er-1 div,
+.er-2,
+.er-2 div,
+.er-3 div {
+    display: flex
+}
+
+.li-2:hover .er-1 {
+    display: flex;
+    border-top: 1px solid #999
+}
+
+.er-1 li,
+.er-2 li,
+.er-3 li {
+    line-height: 26px
+}
+
+.er-1 li a,
+.er-2 li a,
+.er-3 li a {
+    color: #6e6d6e
+}
+
+.er-1 div ul,
+.er-2 div ul,
+.er-3 div ul {
+    margin-right: 70px
+}
+
+.ul-1,
+.ul-A,
+.ul-a {
+    margin-top: 20px;
+    height: 330px;
+    margin-left: 543px;
+    padding-right: 50px
+}
+
+.ul-2,
+.ul-C,
+.ul-b {
+    margin-top: 20px;
+    margin-left: 56px
+}
+
+.ul-3,
+.ul-D,
+.ul-c {
+    margin-top: 50px
+}
+
+.ul-4,
+.ul-5,
+.ul-d {
+    margin-top: 20px;
+    height: 330px;
+    border-left: 1px solid #999
+}
+
+.ul-4,
+.ul-d {
+    padding-left: 36px;
+    margin-right: 100px
+}
+
+.ul-5 {
+    padding-left: 35px
+}
+
+.er-2,
+.er-3 {
+    top: 98px;
+    width: 1903px;
+    height: 385px;
+    background-color: #fff;
+    z-index: 99
+}
+
+.ul-1 li:first-child a,
+.ul-2 li:first-child a,
+.ul-4 li:first-child a,
+.ul-5 li:first-child a,
+.ul-B li:first-child a,
+.ul-C li:first-child a,
+.ul-E li:first-child a {
+    color: #000;
+    font-size: 14px
+}
+
+.li-3 {
+    position: relative
+}
+
+.er-2 {
+    position: absolute;
+    left: -1020px;
+    font-size: 12px;
+    display: none
+}
+
+.li-3:hover .er-2 {
+    display: flex;
+    border-top: 1px solid #999
+}
+
+.ul-a li:first-child a,
+.ul-b li:first-child a,
+.ul-d li:first-child a {
+    color: #000;
+    font-size: 14px
+}
+
+.ul-a {
+    margin-left: 655px
+}
+
+.li-4 {
+    position: relative
+}
+
+.er-3 {
+    position: absolute;
+    left: -1093px;
+    font-size: 12px;
+    display: flex;
+    display: none
+}
+
+.ul-B,
+.ul-E {
+    margin-top: 20px;
+    padding-left: 40px;
+    height: 330px
+}
+
+.li-4:hover .er-3 {
+    display: flex;
+    border-top: 1px solid #999
+}
+
+.ul-A {
+    margin-left: 576px
+}
+
+.ul-B {
+    padding-right: 100px
+}
+
+.ul-E {
+    border-left: 1px solid #999
+}
+
+.footer-top {
+    width: 100%;
+    height: 277px;
+    background-color: #d00
+}
+
+.footer-top h3 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+.footer-top p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.footer-top img {
+    width: 85px;
+    height: 85px
+}
+
+.footer-top .a1 {
+    margin-left: 865px;
+    margin-right: 30px;
+    position: relative
+}
+
+.footer-top .ewm {
+    position: absolute;
+    top: -250px;
+    left: -50px;
+    width: 180px;
+    height: 180px;
+    display: none
+}
+
+.a1:hover .ewm {
+    display: block
+}
+
+.custom-service,
+.h4 {
+    display: flex
+}
+
+.footer-buttom {
+    height: 265px;
+    width: 100%;
+    background-color: #292929
+}
+
+.logo {
+    width: 250px;
+    height: 96px;
+    float: left;
+    margin-left: 324px;
+    margin-top: 86px
+}
+
+.footer-button-R {
+    float: left
+}
+
+.custom-service h4 {
+    width: 360px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px
+}
+
+.custom-service-1 {
+    border-right: 1px solid #fff;
+    margin-left: 215px;
+    margin-top: 53px
+}
+
+.custom-service h4 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+.custom-service-1 span {
+    display: block;
+    height: 30px;
+    padding-bottom: 10px
+}
+
+.erweima {
+    margin-left: 90px;
+    margin-top: 62px
+}
+
+.banquan {
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 150px
+}
+
+.banquan p {
+    margin-bottom: 5px
+}
+
+aside {
+    width: 60px;
+    height: 275px;
+    z-index: 999;
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    background: url(https://img.fishfay.com/theme/images/icons/web-cover.svg) no-repeat
+}
+
+aside a {
+    display: block;
+    height: 33.33%
+}

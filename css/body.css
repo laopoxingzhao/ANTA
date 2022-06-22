@@ -1,0 +1,464 @@
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.index-header{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 999;
+}
+.page-container{
+    position: absolute;
+    top: 150px;
+}
+.custom-box {
+    position: relative;
+}
+
+.loading {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.coushu {
+    width: 100%;
+    height: 971px;
+    background: #000000;
+    margin-top: -225px;
+    margin-bottom: -100px;
+}
+
+.main-ft {
+    width: 100%;
+    height: 277px;
+    background: #DD0000;
+    padding: 50px 0;
+}
+
+.main-ft-inner {
+    width: 600px;
+    height: 240px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+.main-ft-title {
+    color: #fff;
+    font-size: 40px;
+}
+
+.main-ft-inner p {
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.img2-bg {
+    width: 460px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 230px;
+    top: 50px;
+}
+.coushu1 {
+    width: 100%;
+    height: 920px;
+    background: #000000;
+    margin-bottom: -20px;
+}
+
+.img3-m {
+    width: 100%;
+    height: 615px;
+    z-index: 6;
+}
+
+.img3-1 {
+    width: 260px;
+    height: 180px;
+    float: left;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 260px;
+    top: 310px;
+}
+
+.img3-2 {
+    width: 260px;
+    height: 180px;
+    float: left;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 540px;
+    top: 310px;
+}
+
+.img5 {
+    width: 213px;
+    height: 114px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.img5:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+.img5-l {
+    position: absolute;
+    left: 250px;
+}
+
+.img5-r {
+    position: absolute;
+    right: 250px;
+}
+
+.img5-1 {
+    top: 40px;
+}
+
+.img5-2 {
+    top: 160px;
+}
+
+.img5-3 {
+    top: 280px;
+}
+
+.img5-b {
+    width: 410px;
+    height: 350px;
+    position: absolute;
+    left: 470px;
+    top: 40px;
+}
+
+.main-ft-weixin {
+    position: absolute;
+    left: 180px;
+}
+
+.main-ft-weibo {
+    position: absolute;
+    right: 180px;
+}
+
+.img6 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    display: none;
+}
+
+li {
+    position: relative;
+}
+.dg{
+    display: none;
+}
+.bg-index {
+    float: left;
+    position: absolute;
+    top: -400px;
+    width: 210px;
+    height: 405px;
+    z-index: 998;
+}
+
+.bg-1 {
+    left: 18.5%;
+}
+
+.bg-2 {
+    left: 34%;
+}
+
+.bg-3 {
+    left: 49.5%;
+}
+
+.bg-4 {
+    left: 65%;
+}
+
+.bg-bg {
+    width: 210px;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+}
+
+.bg-bg-1 {
+    top: 137px;
+}
+
+.bg-bg-2 {
+    top: 155px;
+}
+
+.bg-bg-3 {
+    top: 172px;
+}
+
+.bg-bg-4 {
+    top: 120px;
+}
+
+.bg-box span {
+    float: left;
+    position: absolute;
+    top: -400px;
+    width: 210px;
+    height: 405px;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0);
+}
+
+.bg-box span:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.coushu-bg {
+    width: 970px;
+    height: 600px;
+    background: #fff;
+    position: absolute;
+    top: 300px;
+    left: 15%;
+    z-index: 999;
+}
+
+.tit-1 {
+    width: 434px;
+    height: 39px;
+    position: absolute;
+    top: 260px;
+    right: 28%;
+}
+
+.tit-1-1 {
+    width: 434px;
+    height: 39px;
+    position: absolute;
+    top: -89px;
+    right: 28%;
+}
+
+.tit-2 {
+    width: 200px;
+    height: 37px;
+    position: absolute;
+    top: 260px;
+    right: 13%;
+}
+
+.tit-2-1 {
+    width: 200px;
+    height: 37px;
+    position: absolute;
+    top: -89px;
+    right: 13%;
+}
+
+.goods-1 {
+    width: 203px;
+    margin: 20px 30px;
+}
+
+.goods-1-1 {
+    width: 203px;
+    height: 483px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.goods-bottom {
+    height: 42px;
+    margin-left: 20px;
+}
+
+.googs-bottom-a {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+}
+
+.goods1-box {
+    width: 680px;
+    height: 480px;
+    position: absolute;
+    left: 244px;
+    margin: 20px;
+}
+
+.goods {
+    width: 185px;
+    height: 215px;
+    float: left;
+    margin: 15px;
+}
+
+.goods5 {
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.gooosimg{
+    width: 185px;
+    height: 185px;
+}
+.goods p,.goods span {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width:185px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+} 
+.coushu1-bg {
+    width: 970px;
+    height: 950px;
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    top: -50px;
+    left: 15%;
+   
+}
+
+.goods-bottom2 {
+    height: 42px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.goods-3 {
+    width: 400px;
+    height: 230px;
+    margin: 20px;
+}
+
+.goods-3-1 {
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.goods2-box-1 {
+    width: 500px;
+    height: 230px;
+   
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+
+.goods2-box-2 {
+    width: 980px;
+    height: 500px;
+    ;
+    position: absolute;
+    top: 300px;
+   
+}
+
+.goods-2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.goods6 {
+    width: 185px;
+    height: 215px;
+    position: absolute;
+    left: 15px;
+}
+.goods-1 img{
+    width: 185px;
+    height: 215px;
+}
+.goods-1 p,.goods-1 span{
+    margin: 0;padding: 0;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.goods-2 img{
+    width: 200px;
+    height: 200px;
+}
+.goods-2 p,.goods-2 span{
+    margin: 0;padding: 0;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.floor{
+    width: 99%;
+    height: 186px;
+    position: absolute;
+    top: 4170px;
+    margin: 0;
+    padding: 0;
+}
+
+.floor-box{
+    width: 60px;
+    height: 275px;
+    background: rgba(0,0,0, 0.4);
+    border-radius: 30px;
+    position: fixed;
+    right: 40px;
+    bottom: 100px; 
+    z-index: 999;
+    overflow: hidden;
+}
+.floor1{
+    height: 76px;
+    border-bottom: 1px solid #fff;
+    margin-left: 5px;
+    padding: 15px 5px 0 0px;
+}
+.floor-p{
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+}
+.floor-m p{
+    margin-left: 7px;
+}
+.floor-b p{
+    margin-left: 10px;
+}
